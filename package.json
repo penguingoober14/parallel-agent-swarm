@@ -1,0 +1,12 @@
+{
+  "name": "parallel-agent-swarm",
+  "version": "1.0.0",
+  "description": "Deploy 100 parallel Claude agents for any task - zero infrastructure cost",
+  "main": "swarm.js",
+  "scripts": {
+    "swarm": "node swarm.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1"
+  }
+}
